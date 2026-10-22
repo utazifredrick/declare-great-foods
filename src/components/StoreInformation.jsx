@@ -32,7 +32,7 @@ function StoreInformation() {
             <a
               className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-md bg-brand-green px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-brand-bright focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-green motion-reduce:transition-none"
               href={storeInfo.directionsUrl}
-              rel="noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <Navigation aria-hidden="true" className="size-4" />

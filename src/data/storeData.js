@@ -8,14 +8,14 @@ export const storeInfo = {
     { label: "07404 531998", href: "tel:+447404531998" },
     { label: "07737 217861", href: "tel:+447737217861" },
   ],
-  // Verify this WhatsApp number with the owner before launch.
+  // Verify WhatsApp number.
   whatsappNumber: "447402754401",
   heroImage:
     "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=2200&q=85",
   aboutImage:
     "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1400&q=85",
   directionsUrl:
-    "https://www.google.com/maps/search/?api=1&query=Declare+Great+Foods%2C+374+Moston+Lane%2C+Moston%2C+Manchester%2C+M40+9JS%2C+United+Kingdom",
+    "https://www.google.com/maps/dir/?api=1&destination=374%20Moston%20Ln%2C%20Manchester%20M40%209JS%2C%20United%20Kingdom",
 };
 
 export const whatsappUrl = `https://wa.me/${storeInfo.whatsappNumber}`;
